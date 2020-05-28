@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html {
+  /* a cada 1rem será considera 10px */
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Source Sans Pro";
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  background-color: rgba(42, 42, 46, 1);
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  background-color: #7159c1;
+}
+
+header .container {
+  position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	min-height: 64px;
+	z-index: 9999;
+	
+	background-color: #161616;
+	
+	margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
